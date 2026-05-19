@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Garden</title>
+    <link rel="stylesheet" href="../css/HieuUngMouse.css">
+    <link rel="stylesheet" href="../css/User.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- LOGO -->
+        <div class="logo">
+            ☕Coffee Garden
+        </div>
+
+        <!-- MENU -->
+        <nav>
+
+            <ul>
+
+                <li>
+                    <a href="TrangChu.html" target="noidung">
+                        Trang Chủ
+                    </a>
+                </li>
+
+                <li>
+                    <a href="GioiThieu.html" target="noidung">
+                        Giới Thiệu
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="noidung">
+                        Gallery
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" target="noidung">
+                        Liên Hệ
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <!-- USER -->
+        <div class="user-box">
+
+            <!-- PROFILE -->
+            <div class="user-profile" id="userProfile">
+
+                👤 <span id="user-name">User</span>
+
+            </div>
+
+            <!-- GIỎ HÀNG -->
+            <button class="cart-btn" id="cartBtn">
+
+                <a href="GioHang.html" target="noidung">
+                    🛒 Giỏ Hàng
+                </a>
+
+            </button>
+
+            <!-- ĐĂNG NHẬP -->
+            <button class="login-btn" id="loginBtn">
+
+                <a href="DangNhap.html" target="noidung">
+                    Đăng Nhập
+                </a>
+
+            </button>
+
+            <!-- ĐĂNG KÝ -->
+            <button class="register-btn" id="registerBtn">
+
+                <a href="DangKy.html" target="noidung">
+                    Đăng Ký
+                </a>
+
+            </button>
+
+            <!-- ĐĂNG XUẤT -->
+            <button class="logout-btn" id="logoutBtn"
+                onclick="logout()">
+
+                Đăng Xuất
+
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- TABLE -->
+    <table class="layout">
+
+        <tr>
+
+            <td>
+
+                <!-- IFRAME -->
+                <iframe
+                    name="noidung"
+                    src="TrangChu.html">
+                </iframe>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <!-- SCRIPT -->
+    <script src="JavaScrip/index.js"></script>
+</body>
+</html>

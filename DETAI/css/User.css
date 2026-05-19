@@ -1,0 +1,164 @@
+/* USER BOX */
+.user-box{
+    display: flex;
+    gap: 10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+/* BUTTON CHUNG */
+.cart-btn,
+.login-btn,
+.register-btn{
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 15px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* GIỎ HÀNG */
+.cart-btn{
+    background: orange;
+    color: white;
+}
+
+.cart-btn:hover{
+    background: #d17e1e;
+    transform: scale(1.05);
+}
+
+/* ĐĂNG NHẬP */
+.login-btn{
+    background: rgb(214, 102, 9);
+    color: #000000;
+}
+
+.login-btn:hover{
+    background: #ddd;
+}
+
+/* ĐĂNG KÝ */
+.register-btn{
+    background: #ff6600;
+    color: white;
+}
+
+.register-btn:hover{
+    background: #ff4500;
+}
+.form-container{
+    width: 400px;
+
+    margin: 100px auto;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+    text-align: center;
+}
+
+.form-container h1{
+    margin-bottom: 20px;
+}
+
+.form-container input{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.form-container button{
+    width: 100%;
+
+    padding: 12px;
+
+    background: #3b2417;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+#message{
+    position: fixed;
+
+    top: 100px;
+    right: 30px;
+
+    background: #28a745;
+
+    color: white;
+
+    padding: 15px 25px;
+
+    border-radius: 10px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+
+    z-index: 9999;
+
+    display: none;
+}
+.cart-btn:hover,
+.login-btn:hover,
+.register-btn:hover,
+.form-container button:hover {
+    transform: scale(1.025);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+.cart-btn,
+.login-btn,
+.register-btn,
+.form-container button {
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+/* User area */
+/* KHU USER */
+.user-area{
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+}
+
+/* USER */
+.user-profile{
+    display: none;
+
+    align-items: center;
+
+    gap: 8px;
+
+    background: white;
+
+    padding: 10px 18px;
+
+    border-radius: 30px;
+
+    color: #3b2417;
+
+    font-weight: bold;
+}
